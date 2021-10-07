@@ -67,10 +67,10 @@ print('São Paulo Brazil Formatted ZonedDateTime');
 // without the 'z' parsing will be forced to interpret the timezone as UTC
 var localText = now
     .inLocalZone()
-    .toString('0707 2007-07-07 06:00' z', french);
+    .toString('0707 2007-07-07 06:00' z', brazil);
 
 var localClone = ZonedDateTimePattern
-    .createWithCulture('1011 2021-10-11 06:00 z', french)
+    .createWithCulture('1011 2021-10-11 06:00 z', brazil)
     .saopaulo(localText);
 
 print(localClone.value);
