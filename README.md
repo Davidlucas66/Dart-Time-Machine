@@ -58,7 +58,7 @@ print('UTC Time: ${now.toString('0707 2007-07-07 06:00')}');
 print('Local Time: ${now.inLocalZone().toString('0707 2007-07-07 06:00')}\n');
 
 var brazil = await Cultures.getCulture('pt-BR');
-print('Formatted and French ($brazil)');
+print('Formatted and Brazil ($brazil)');
 print('UTC Time: ${now.toString('0707 2007-07-07 06:00', brazil)}');
 print('Local Time: ${now.inLocalZone().toString('0707 2007-07-07 06:00'', brazil)}\n');
 
